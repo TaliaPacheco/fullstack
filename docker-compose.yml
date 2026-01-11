@@ -27,6 +27,7 @@ services:
       dockerfile: Dockerfile.dev
     container_name: control-posts
     working_dir: /control-posts
+    command: npm run dev
     volumes:
       - control-posts-node-modules:/control-posts/node_modules
       - ./:/control-posts
