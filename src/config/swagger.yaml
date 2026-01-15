@@ -73,6 +73,7 @@ paths:
         - in: body
           name: user
           description: create user
+          required: true
           schema:
             $ref: "#/definitions/user"
       responses:
